@@ -1,5 +1,6 @@
 import { Header } from '../components/header';
 import { Hero } from '../components/hero';
+import CodeDisplay from '../lib/code-display';
 import FontSearch from '../lib/font-search';
 import LangSearch from '../lib/lang-search';
 import ThemeSearch from '../lib/theme-search';
@@ -18,7 +19,9 @@ export default function Home() {
                 <FontSearch />
                 <LangSearch />
               </div>
-              <div className="mt-6"></div>
+              <div className="mt-6">
+                <CodeDisplay />
+              </div>
             </div>
           </div>
         </main>

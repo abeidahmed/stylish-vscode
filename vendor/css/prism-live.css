@@ -13,7 +13,7 @@ pre.prism-live {
 }
 
 textarea.prism-live {
-  padding-left: 60px; /* custom added to accomodate for line numbers */
+  padding-left: 61.5px; /* custom added to accomodate for line numbers */
   position: absolute;
   top: 0;
   right: 0;
