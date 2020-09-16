@@ -20,6 +20,7 @@ module.exports = {
   },
   variants: {
     textColor: ['responsive', 'hover', 'focus', 'focus-within'],
+    borderWidth: ['responsive', 'first'],
   },
   plugins: [require('@tailwindcss/ui')],
 };
