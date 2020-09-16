@@ -13,8 +13,12 @@
     "next": "9.5.3",
     "postcss-flexbugs-fixes": "^4.2.1",
     "postcss-preset-env": "^6.7.0",
+    "prismjs": "^1.21.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "tailwindcss": "^1.8.10"
+  },
+  "devDependencies": {
+    "babel-plugin-prismjs": "^2.0.1"
   }
 }
