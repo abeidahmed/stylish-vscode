@@ -87,7 +87,7 @@ export default function Home() {
                           className="flex-shrink-0 w-6 h-6 text-gray-500"
                         />
                         <p className="text-gray-200 truncate">
-                          Sorry, no themes found!
+                          Sorry, we couldn't find anything!
                         </p>
                       </div>
                     )}
