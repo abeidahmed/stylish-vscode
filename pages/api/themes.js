@@ -16,7 +16,7 @@ const themes = [
 export default (req, res) => {
   let search = req.query.search;
   const filteredThemes = themes.filter(
-    (theme) => theme.name.toLowerCase().indexOf(search.toLowerCase()) !== -1
+    ({ name }) => name.toLowerCase().indexOf(search.toLowerCase()) !== -1
   );
   res.status(200).json(filteredThemes);
 };

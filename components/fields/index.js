@@ -9,7 +9,7 @@ export function Field({ icon, ...props }) {
         {...props}
       />
       <div className="absolute left-0 pl-2.5 pointer-events-none">
-        <Icon icon="palette" className="w-6 h-6" />
+        <Icon icon={icon} className="w-6 h-6" />
       </div>
       <div className="absolute right-0 pr-2.5 pointer-events-none">
         <Icon icon="chevron-down" className="w-6 h-6 text-gray-500" />

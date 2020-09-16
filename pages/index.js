@@ -1,5 +1,6 @@
 import { Header } from '../components/header';
 import { Hero } from '../components/hero';
+import FontSearch from '../lib/font-search';
 import ThemeSearch from '../lib/theme-search';
 
 export default function Home() {
@@ -11,8 +12,9 @@ export default function Home() {
           <div>
             <Hero />
             <div className="w-full max-w-3xl p-6 mx-auto mt-12 bg-gray-800 rounded-md shadow-lg">
-              <div>
+              <div className="space-y-3">
                 <ThemeSearch />
+                <FontSearch />
               </div>
             </div>
           </div>
