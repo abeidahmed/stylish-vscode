@@ -3,11 +3,11 @@ import { dasherized } from '../../utils/helpers';
 const languages = [
   {
     id: 1,
-    name: 'ruby',
+    name: 'Ruby',
   },
   {
     id: 2,
-    name: 'javascript',
+    name: 'JavaScript',
   },
 ];
 
