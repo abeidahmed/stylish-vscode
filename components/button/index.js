@@ -11,7 +11,7 @@ export function Button({ active, title, children, ...props }) {
     >
       {children}
       {active === title && (
-        <Icon icon="code" className="w-5 h-5 text-gray-500" />
+        <Icon icon="code" className="w-5 h-5 text-teal-400" />
       )}
     </button>
   );
