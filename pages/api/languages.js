@@ -1,8 +1,9 @@
+import { dasherized } from '../../utils/helpers';
+
 const languages = [
   {
     id: 1,
-    name: 'Ruby',
-    dasherizedName: 'ruby',
+    name: 'ruby',
     demo: `
       def template_list
         component = Template::ComponentFinder.new
@@ -17,8 +18,7 @@ const languages = [
   },
   {
     id: 2,
-    name: 'Javascript',
-    dasherizedName: 'javascript',
+    name: 'javascript',
     demo: `
       const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
 
@@ -38,7 +38,7 @@ const languages = [
 export default (req, res) => {
   let search = req.query.search;
   const filteredLang = languages.filter(
-    ({ name }) => name.toLowerCase().indexOf(search.toLowerCase()) !== -1
+    ({ name }) => name.toLowerCase().indexOf(dasherized(search)) !== -1
   );
   res.status(200).json(filteredLang);
 };
