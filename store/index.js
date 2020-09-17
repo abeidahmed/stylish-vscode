@@ -4,7 +4,10 @@ import { reducer } from '../reducers';
 const initialState = {
   theme: '',
   font: '',
-  lang: '',
+  lang: {
+    name: '',
+    demo: ``,
+  },
 };
 
 export const Context = createContext(initialState);

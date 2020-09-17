@@ -18,7 +18,7 @@ const languages = [
   {
     id: 2,
     name: 'Javascript',
-    dasherizedName: 'js',
+    dasherizedName: 'javascript',
     demo: `
       const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
 
