@@ -5,7 +5,9 @@ export function Header() {
     <header className="flex items-center h-16">
       <div className="flex items-center ml-auto space-x-6">
         <a
-          href="#"
+          href="https://github.com/abeidahmed/stylish-vscode"
+          target="_blank"
+          rel="external nofollow noreferrer noopener"
           className="text-gray-100 transition duration-150 ease-in-out hover:text-teal-400"
         >
           <span className="sr-only">Github repository</span>
