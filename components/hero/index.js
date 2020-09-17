@@ -2,7 +2,7 @@ export function Hero() {
   return (
     <div>
       <img
-        className="w-auto h-10 mx-auto"
+        className="w-auto h-12 mx-auto"
         src="/logo.svg"
         alt="Stylish vscode"
       />

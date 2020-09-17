@@ -8,13 +8,19 @@ export function Header() {
           href="#"
           className="text-gray-100 transition duration-150 ease-in-out hover:text-teal-400"
         >
-          <Icon icon="github" className="w-6 h-6" />
+          <span className="sr-only">Github repository</span>
+          <i>
+            <Icon icon="github" className="w-6 h-6" standalone="true" />
+          </i>
         </a>
         <a
           href="#"
           className="text-gray-100 transition duration-150 ease-in-out hover:text-teal-400"
         >
-          <Icon icon="twitter" className="w-6 h-6" />
+          <span className="sr-only">Twitter profile</span>
+          <i>
+            <Icon icon="twitter" className="w-6 h-6" standalone="true" />
+          </i>
         </a>
       </div>
     </header>
