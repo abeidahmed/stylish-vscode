@@ -1,4 +1,5 @@
 import Store from '../store';
+import { NextHead } from '../components/head';
 import { Header } from '../components/header';
 import { Hero } from '../components/hero';
 import CodeDisplay from '../lib/code-display';
@@ -9,6 +10,7 @@ import ThemeSearch from '../lib/theme-search';
 export default function Home() {
   return (
     <Store>
+      <NextHead />
       <div className="min-h-screen font-sans antialiased text-gray-300 bg-gray-900">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <Header />
