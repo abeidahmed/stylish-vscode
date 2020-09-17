@@ -24,6 +24,7 @@
   font-size: 16px;
   height: auto !important;
   font-family: inherit !important;
+  padding: 8px;
 }
 
 @import 'tailwindcss/utilities';
