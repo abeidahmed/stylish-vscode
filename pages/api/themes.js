@@ -1,6 +1,3 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import { dasherized } from '../../utils/helpers';
-
 const themes = [
   {
     name: 'ambiance',
@@ -158,10 +155,6 @@ const themes = [
 ];
 
 export default (req, res) => {
-  let search = req.query.search;
-  const filteredThemes = themes.filter(
-    ({ name }) => name.toLowerCase().indexOf(dasherized(search)) !== -1
-  );
-  const sorted = filteredThemes.sort((a, b) => (a.name > b.name ? 1 : -1));
+  const sorted = themes.sort((a, b) => (a.name > b.name ? 1 : -1));
   res.status(200).json(sorted);
 };
