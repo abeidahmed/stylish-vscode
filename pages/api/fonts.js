@@ -16,5 +16,6 @@ export default (req, res) => {
   const filteredFonts = fonts.filter(
     ({ name }) => name.toLowerCase().indexOf(dasherized(search)) !== -1
   );
-  res.status(200).json(filteredFonts);
+  const sorted = filteredFonts.sort((a, b) => (a.name > b.name ? 1 : -1));
+  res.status(200).json(sorted);
 };

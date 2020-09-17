@@ -40,5 +40,6 @@ export default (req, res) => {
   const filteredLang = languages.filter(
     ({ name }) => name.toLowerCase().indexOf(dasherized(search)) !== -1
   );
-  res.status(200).json(filteredLang);
+  const sorted = filteredLang.sort((a, b) => (a.name > b.name ? 1 : -1));
+  res.status(200).json(sorted);
 };

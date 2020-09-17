@@ -4,11 +4,19 @@ import { dasherized } from '../../utils/helpers';
 const themes = [
   {
     id: 1,
-    name: 'night-owl',
+    name: 'dracula',
   },
   {
     id: 2,
     name: 'material',
+  },
+  {
+    id: 3,
+    name: 'ayu-dark',
+  },
+  {
+    id: 4,
+    name: 'ayu-mirage',
   },
 ];
 
@@ -17,5 +25,6 @@ export default (req, res) => {
   const filteredThemes = themes.filter(
     ({ name }) => name.toLowerCase().indexOf(dasherized(search)) !== -1
   );
-  res.status(200).json(filteredThemes);
+  const sorted = filteredThemes.sort((a, b) => (a.name > b.name ? 1 : -1));
+  res.status(200).json(sorted);
 };
