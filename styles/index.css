@@ -23,6 +23,7 @@
 .CodeMirror {
   font-size: 16px;
   height: auto !important;
+  font-family: inherit !important;
 }
 
 @import 'tailwindcss/utilities';

@@ -13,3 +13,28 @@
   font-style: normal;
   font-display: block;
 }
+
+/* Display fonts */
+@font-face {
+  font-family: 'CascadiaCode';
+  src: url('/fonts/CascadiaCode-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+.cascadia-code {
+  font-family: 'CascadiaCode';
+}
+
+@font-face {
+  font-family: 'FiraCode';
+  src: url('/fonts/FiraCode-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+.fira-code {
+  font-family: 'FiraCode';
+}
