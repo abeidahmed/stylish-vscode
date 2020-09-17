@@ -6,6 +6,8 @@ export function Field({ icon, ...props }) {
       <input
         type="text"
         className="block w-full px-10 text-gray-200 transition duration-150 ease-in-out bg-transparent border-gray-400 shadow form-input focus:shadow-none focus:border-teal-400"
+        spellCheck="false"
+        autoComplete="off"
         {...props}
       />
       <div className="absolute left-0 pl-2.5 pointer-events-none">
