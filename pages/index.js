@@ -16,12 +16,12 @@ export default function Home() {
             <div>
               <Hero />
               <div className="flex flex-col w-full max-w-3xl p-6 mx-auto mt-12 bg-gray-800 rounded-md shadow-lg">
-                <div className="space-y-3 md:flex md:items-center md:space-y-0 md:space-x-3">
+                <div className="flex-shrink-0 space-y-3 md:flex md:items-center md:space-y-0 md:space-x-3">
                   <ThemeSearch />
                   <FontSearch />
                   <LangSearch />
                 </div>
-                <div className="flex-1 mt-6 overflow-y-hidden">
+                <div className="flex-1 mt-6 overflow-hidden rounded-md">
                   <CodeDisplay />
                 </div>
               </div>
