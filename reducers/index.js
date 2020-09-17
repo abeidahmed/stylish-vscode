@@ -8,10 +8,7 @@ export function reducer(state, action) {
     case 'SET_LANG':
       return {
         ...state,
-        lang: {
-          name: action.langName,
-          demo: action.langDemo,
-        },
+        lang: action.lang,
       };
     case 'SET_FONT':
       return {
