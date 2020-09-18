@@ -15,5 +15,15 @@ export function reducer(state, action) {
         ...state,
         showLineNumber: action.showLineNumber,
       };
+    case 'TOGGLE_DARK_THEME':
+      return {
+        ...state,
+        showDarkTheme: action.showDarkTheme,
+      };
+    case 'TOGGLE_LIGHT_THEME':
+      return {
+        ...state,
+        showLightTheme: action.showLightTheme,
+      };
   }
 }

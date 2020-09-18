@@ -5,6 +5,8 @@ const initialState = {
   fontSize: '16',
   lineHeight: '1.5',
   showLineNumber: false,
+  showDarkTheme: true,
+  showLightTheme: true,
 };
 
 export const Context = createContext(initialState);
