@@ -238,7 +238,7 @@ export default (req, res) => {
     } else if (!showDark && showLight) {
       return theme.type === 'light';
     } else {
-      return [];
+      return;
     }
   });
 
