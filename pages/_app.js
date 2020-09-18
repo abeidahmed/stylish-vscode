@@ -56,9 +56,19 @@ import 'codemirror/theme/zenburn.css';
 
 // Languages
 if (typeof navigator !== 'undefined') {
-  require('codemirror/mode/xml/xml');
+  require('codemirror/mode/clojure/clojure');
+  require('codemirror/mode/css/css');
+  require('codemirror/mode/dockerfile/dockerfile');
+  require('codemirror/mode/erlang/erlang');
   require('codemirror/mode/javascript/javascript');
+  require('codemirror/mode/php/php');
+  require('codemirror/mode/python/python');
+  require('codemirror/mode/r/r');
   require('codemirror/mode/ruby/ruby');
+  require('codemirror/mode/rust/rust');
+  require('codemirror/mode/sql/sql');
+  require('codemirror/mode/swift/swift');
+  require('codemirror/mode/xml/xml');
 }
 
 function MyApp({ Component, pageProps }) {
