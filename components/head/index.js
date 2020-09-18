@@ -17,7 +17,10 @@ export function NextHead() {
       />
       <meta property="og:site_name" content="Stylish vscode" />
 
-      <meta property="og:image" content="/preview.jpg" />
+      <meta
+        property="og:image"
+        content="https://stylish-vscode.vercel.app/preview.jpg"
+      />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="600" />
       <meta name="twitter:card" content="summary_large_image" />
@@ -27,7 +30,10 @@ export function NextHead() {
         name="twitter:description"
         content="Style your vscode like the way you want. Start picking color schemes and fonts to get started."
       />
-      <meta name="twitter:image" content="/preview.jpg" />
+      <meta
+        name="twitter:image"
+        content="https://stylish-vscode.vercel.app/preview.jpg"
+      />
       <link
         href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital@0;1&display=swap"
         rel="stylesheet"
