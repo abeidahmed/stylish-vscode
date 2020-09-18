@@ -1,11 +1,9 @@
 const languages = [
   {
-    id: 1,
     name: 'Ruby',
     searchTag: ['ruby', 'ruby-on-rails', 'rails', 'rb'],
   },
   {
-    id: 2,
     name: 'JavaScript',
     searchTag: ['js', 'javascript'],
   },

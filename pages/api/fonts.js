@@ -1,10 +1,8 @@
 const fonts = [
   {
-    id: 1,
     name: 'fira-code',
   },
   {
-    id: 2,
     name: 'cascadia-code',
   },
 ];
