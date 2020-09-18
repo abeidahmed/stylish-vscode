@@ -27,9 +27,7 @@ export default function Home() {
                   <LangSearch />
                   <Setting />
                 </div>
-                <div className="flex-1 mt-6 overflow-hidden rounded-md">
-                  <CodeDisplay />
-                </div>
+                <CodeDisplay />
               </div>
             </div>
           </main>

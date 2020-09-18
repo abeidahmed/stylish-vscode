@@ -1,1 +1,19 @@
-export function reducer(state, action) {}
+export function reducer(state, action) {
+  switch (action.type) {
+    case 'UPDATE_FONT_SIZE':
+      return {
+        ...state,
+        fontSize: action.fontSize,
+      };
+    case 'UPDATE_LINE_HEIGHT':
+      return {
+        ...state,
+        lineHeight: action.lineHeight,
+      };
+    case 'TOGGLE_LINE_NUMBER':
+      return {
+        ...state,
+        showLineNumber: action.showLineNumber,
+      };
+  }
+}

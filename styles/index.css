@@ -21,7 +21,7 @@
 }
 
 .CodeMirror {
-  font-size: 16px;
+  font-size: inherit !important;
   height: auto !important;
   font-family: inherit !important;
   padding: 8px;

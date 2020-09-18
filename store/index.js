@@ -1,7 +1,11 @@
 import { createContext, useReducer } from 'react';
 import { reducer } from '../reducers';
 
-const initialState = {};
+const initialState = {
+  fontSize: '16',
+  lineHeight: '1.5',
+  showLineNumber: false,
+};
 
 export const Context = createContext(initialState);
 
