@@ -6,6 +6,7 @@ import CodeDisplay from '../lib/code-display';
 import FontSearch from '../lib/font-search';
 import LangSearch from '../lib/lang-search';
 import ThemeSearch from '../lib/theme-search';
+import Setting from '../lib/setting';
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
                   <ThemeSearch />
                   <FontSearch />
                   <LangSearch />
+                  <Setting />
                 </div>
                 <div className="flex-1 mt-6 overflow-hidden rounded-md">
                   <CodeDisplay />

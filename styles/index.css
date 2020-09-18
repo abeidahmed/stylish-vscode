@@ -27,4 +27,5 @@
   padding: 8px;
 }
 
+@import 'slider.css';
 @import 'tailwindcss/utilities';
