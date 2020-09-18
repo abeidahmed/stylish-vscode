@@ -203,6 +203,26 @@ const themes = [
     name: 'zenburn',
     type: 'dark',
   },
+  {
+    name: 'night-owl',
+    type: 'dark',
+  },
+  {
+    name: 'one-dark',
+    type: 'dark',
+  },
+  {
+    name: 'one-light',
+    type: 'light',
+  },
+  {
+    name: 'synthwave-84',
+    type: 'dark',
+  },
+  {
+    name: 'verminal',
+    type: 'dark',
+  },
 ];
 
 export default (req, res) => {

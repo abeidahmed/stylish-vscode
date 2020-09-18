@@ -28,4 +28,5 @@
 }
 
 @import 'slider.css';
+@import 'themes/index.css'; /* Codemirror themes */
 @import 'tailwindcss/utilities';
