@@ -34,6 +34,26 @@ export function NextHead() {
         name="twitter:image"
         content="https://heroicons.com/_next/static/media/social-card.c623b199d043ddf168d67e9b98a21a24.jpg"
       />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital@0;1&display=swap"
+        rel="stylesheet"
+      ></link>
+      <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&display=swap"
+        rel="stylesheet"
+      ></link>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap"
+        rel="stylesheet"
+      ></link>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@0;1&display=swap"
+        rel="stylesheet"
+      ></link>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"
+        rel="stylesheet"
+      ></link>
     </Head>
   );
 }

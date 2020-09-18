@@ -5,6 +5,27 @@ const fonts = [
   {
     name: 'cascadia-code',
   },
+  {
+    name: 'jet-brains-mono',
+  },
+  {
+    name: 'victor-mono',
+  },
+  {
+    name: 'ubuntu-mono',
+  },
+  {
+    name: 'ibm-plex-mono',
+  },
+  {
+    name: 'space-mono',
+  },
+  {
+    name: 'source-code-pro',
+  },
+  {
+    name: 'inconsolata',
+  },
 ];
 
 export default (req, res) => {

@@ -38,3 +38,47 @@
 .fira-code {
   font-family: 'FiraCode';
 }
+
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url('/fonts/JetBrainsMono-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+.jet-brains-mono {
+  font-family: 'JetBrainsMono';
+}
+
+@font-face {
+  font-family: 'VictorMono';
+  src: url('/fonts/VictorMono-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+.victor-mono {
+  font-family: 'VictorMono';
+}
+
+.ubuntu-mono {
+  font-family: 'Ubuntu Mono';
+}
+
+.ibm-plex-mono {
+  font-family: 'IBM Plex Mono';
+}
+
+.space-mono {
+  font-family: 'Space Mono';
+}
+
+.source-code-pro {
+  font-family: 'Source Code Pro';
+}
+
+.inconsolata {
+  font-family: 'Inconsolata';
+}
