@@ -68,7 +68,6 @@ if (typeof navigator !== 'undefined') {
   require('codemirror/mode/rust/rust');
   require('codemirror/mode/sql/sql');
   require('codemirror/mode/swift/swift');
-  require('codemirror/mode/xml/xml');
 }
 
 function MyApp({ Component, pageProps }) {

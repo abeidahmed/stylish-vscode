@@ -47,10 +47,6 @@ const languages = [
     name: 'Swift',
     searchTag: ['swift'],
   },
-  {
-    name: 'HTML',
-    searchTag: ['html', 'xml'],
-  },
 ];
 
 export default (req, res) => {
