@@ -2,8 +2,8 @@ import { Icon } from '../icon';
 
 export function Header() {
   return (
-    <header className="flex items-center h-16">
-      <div className="flex items-center ml-auto space-x-6">
+    <header className="flex items-center">
+      <div className="flex items-center h-16 ml-auto space-x-6">
         <a
           href="https://github.com/abeidahmed/stylish-vscode"
           target="_blank"
@@ -25,6 +25,18 @@ export function Header() {
           <i>
             <Icon icon="twitter" className="w-6 h-6" standalone="true" />
           </i>
+        </a>
+        <a
+          href="https://www.producthunt.com/posts/stylish-vscode?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-stylish-vscode"
+          target="_blank"
+          className="rounded-md"
+        >
+          <img
+            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=264147&theme=dark"
+            alt="Stylish vscode - Style your vscode. Pick themes and fonts to get started. | Product Hunt Embed"
+            style={{ width: 185, height: 40 }}
+            className="transition duration-150 ease-in-out rounded-md hover:shadow-teal-lg"
+          />
         </a>
       </div>
     </header>
