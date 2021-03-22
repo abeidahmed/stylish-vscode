@@ -1,8 +1,8 @@
-# Stylish vscode
+# Stylish VScode
 
 Style your vscode like the way you want. Start picking color schemes and fonts to get started.
 
-![Stylish vscode preview image](https://github.com/abeidahmed/stylish-vscode/blob/master/public/app_preview.jpg)
+![Stylish VScode preview image](https://github.com/abeidahmed/stylish-vscode/blob/master/public/app_preview.jpg)
 
 ### Install
 
